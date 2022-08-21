@@ -1,0 +1,78 @@
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+#TopDiv {
+    background-v;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#pfp {
+    border-radius: 50%;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    font-family:'Segoe UI';
+    color: white;
+    margin-bottom: 5px;
+}
+
+#subtitle {
+    margin: 0;
+    color: lightgray;
+    font-family: "Segoe UI";
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#subtitle:hover span {
+    display: none
+  }
+  
+#subtitle:hover::after {
+    content: " (Click to copy!)"
+  }
+
+.button {
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgba(0,0,0, .5);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: lightgrey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 105px;
+    padding-right: 105px;
+    font-size: 30px;
+    backdrop-filter: blur(5px);
+    background-color: rgb(0,0,0, .6);
+    -webkit-box-shadow: 0px 0px 26px 12px rgba(0,0,0,0.8); 
+    box-shadow: 0px 0px 26px 12px rgba(0,0,0,0.8);
+}
+
